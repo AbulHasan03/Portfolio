@@ -23,7 +23,7 @@ export default function Home() {
       description: "A full-stack word-guessing game inspired by Wordle. Features daily word challenges, color-coded feedback system, on-screen keyboard with letter tracking, and smooth tile animations. Built with Flask backend to prevent cheating and ensure synchronized daily words across all players.",
       tech: ["Python", "Flask", "JavaScript", "HTML5", "CSS3"],
       github: "https://github.com/AbulHasan03/wordle-clone",
-      live: "https://your-wordle-demo.com", // Update this when deployed
+      live: "https://wordle-clone-qz9x.onrender.com/", // Update this when deployed
       gradient: "from-emerald-500 via-teal-500 to-cyan-500",
       year: "2025"
     },
