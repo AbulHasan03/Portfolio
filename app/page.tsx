@@ -22,8 +22,8 @@ const projects = [
       category: "Full-Stack Web Application",
       description: "A modern Kanban-style project management platform built to eliminate chaos in group work. Features AI-powered board generation, real-time messaging with direct messages and group chats, a public community forum, board sharing with permission levels, SMS reminders via Twilio, and phone verification. Built entirely with vanilla JavaScript and Supabase — no framework, no build step.",
       tech: ["JavaScript", "Supabase", "PostgreSQL", "Gemini AI", "Twilio", "HTML5", "CSS3"],
-      github: "",   // add your link
-      live: "",     // add your link
+      github: "https://github.com/AbulHasan03/task-deck",   
+      live: "https://abulhasan03.github.io/task-deck/",     
       gradient: "from-orange-500 via-amber-500 to-yellow-500",
       year: "2026"
     },
