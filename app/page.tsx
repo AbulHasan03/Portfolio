@@ -15,9 +15,21 @@ export default function Home() {
     return () => window.removeEventListener('mousemove', handleMouseMove);
   }, []);
 
-  const projects = [
+const projects = [
     {
       id: 1,
+      title: "TaskDeck",
+      category: "Full-Stack Web Application",
+      description: "A modern Kanban-style project management platform built to eliminate chaos in group work. Features AI-powered board generation, real-time messaging with direct messages and group chats, a public community forum, board sharing with permission levels, SMS reminders via Twilio, and phone verification. Built entirely with vanilla JavaScript and Supabase — no framework, no build step.",
+      tech: ["JavaScript", "Supabase", "PostgreSQL", "Gemini AI", "Twilio", "HTML5", "CSS3"],
+      github: "",   // add your link
+      live: "",     // add your link
+      gradient: "from-orange-500 via-amber-500 to-yellow-500",
+      year: "2026"
+    },
+
+    {
+      id: 2,
       title: "Wordle Clone",
       category: "Web Development",
       description: "A full-stack word-guessing game inspired by Wordle. Features daily word challenges, color-coded feedback system, on-screen keyboard with letter tracking, and smooth tile animations. Built with Flask backend to prevent cheating and ensure synchronized daily words across all players.",
@@ -25,11 +37,11 @@ export default function Home() {
       github: "https://github.com/AbulHasan03/wordle-clone",
       live: "https://wordle-clone-qz9x.onrender.com/",
       gradient: "from-emerald-500 via-teal-500 to-cyan-500",
-      year: "2025"
+      year: "2026"
     },
 
     {
-      id: 2,
+      id: 3,
       title: "Coming Soon",
       category: "Future Project",
       description: "More exciting projects on the way. Stay tuned for updates as I continue building and learning.",
@@ -76,7 +88,7 @@ export default function Home() {
                     </span>
                   </h1>
                   <p className="text-xl md:text-2xl text-zinc-400 font-light leading-relaxed max-w-lg">
-                    A passionate developer crafting thoughtful digital experiences through code and design.
+                    I’m an undergraduate computer science student with a strong interest in software development and problem-solving. I enjoy learning new technologies, building practical projects, and continuously improving my skills to create effective and meaningful solutions through code.
                   </p>
                 </div>
 
