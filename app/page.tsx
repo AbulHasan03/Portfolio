@@ -258,7 +258,7 @@ const projects = [
                 <a href="mailto:abul.k.hasan03@gmail.com" className="text-zinc-400 hover:text-emerald-400 transition-colors font-light">
                   Get in touch
                 </a>
-                <a href="/Portfolio/Abul Hasan - Resume.pdf" className="text-zinc-400 hover:text-emerald-400 transition-colors font-light">
+                <a href="/Portfolio/Abul Hasan - Resume.pdf" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-emerald-400 transition-colors font-light">
                   Resume
                 </a>
               </div>
